@@ -1,0 +1,19 @@
+{
+  "name": "rss-feed-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "nodemailer": "^4.6.8",
+    "rss-parser": "^3.4.3",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node xmlParser.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
