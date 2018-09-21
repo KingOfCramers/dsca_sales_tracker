@@ -1,18 +1,18 @@
-# dsca_sales_tracker
+    # dsca_sales_tracker
 
-Requires config.js file like this: 
+    Requires config.js file like this: 
 
-const auth = {
-    type: "OAuth2",
-    user: "USER_EMAIL_ACCOUNT",
-    clientId: "CLIENT_ID_FROM_GOOGLE",
-    clientSecret: "CLIENT_SECRET_FROM_GOOGLE",
-    refreshToken: "REFRESH_TOKEN_FROM_GOOGLE"
-}
+    const auth = {
+        type: "OAuth2",
+        user: "USER_EMAIL_ACCOUNT",
+        clientId: "CLIENT_ID_FROM_GOOGLE",
+        clientSecret: "CLIENT_SECRET_FROM_GOOGLE",
+        refreshToken: "REFRESH_TOKEN_FROM_GOOGLE"
+    }
 
-const recipient = "RECIPIENT_EMAIL_ACCOUNT";
+    const recipient = "RECIPIENT_EMAIL_ACCOUNT";
 
-module.exports = {
-  auth,
-  recipient
-}
+    module.exports = {
+      auth,
+      recipient
+    }
