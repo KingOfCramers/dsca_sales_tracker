@@ -4,7 +4,7 @@ Requires config.js file like this:
 
 const auth = {
     type: "OAuth2",
-    user: "dsca.arms.sales@gmail.com",
+    user: "USER_EMAIL_ACCOUNT",
     clientId: "CLIENT_ID_FROM_GOOGLE",
     clientSecret: "CLIENT_SECRET_FROM_GOOGLE",
     refreshToken: "REFRESH_TOKEN_FROM_GOOGLE"
