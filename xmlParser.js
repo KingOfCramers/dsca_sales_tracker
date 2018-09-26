@@ -22,9 +22,10 @@ parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
 
       const item_time_unix = moment(item.pubDate).format("X");
       const difference_unix = parseInt(current_time_unix) - parseInt(item_time_unix);
-      const difference_in_minutes = difference_unix/60
+      const difference_in_minutes = difference_unix/60;
+      console.log(difference_in_minutes);
 
-      if(difference_in_minutes < 1600){
+      if(difference_in_minutes < 11){
         let HelperOptions = {
           from: 'DSCA sales <dsca.arms.sales@gmail.com>',
           to: config.recipient,
