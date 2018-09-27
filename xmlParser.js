@@ -60,7 +60,6 @@ parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
                 console.log("Email Sent.");
               }
             });
-
         });
 
       }
