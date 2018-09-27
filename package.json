@@ -7,6 +7,7 @@
     "moment": "^2.22.2",
     "nodemailer": "^4.6.8",
     "rss-parser": "^3.4.3",
+    "twitter": "^1.7.1",
     "xoauth2": "^1.2.0"
   },
   "devDependencies": {},
