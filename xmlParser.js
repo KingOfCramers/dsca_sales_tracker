@@ -1,3 +1,9 @@
+// Logging
+const fs = require("fs");
+var logger = fs.createWriteStream('log.txt', {
+  flags: 'a'
+});
+
 // Mailer
 const { transporter } = require("./mailer");
 const config = require("./config");
@@ -11,12 +17,15 @@ const moment = require("moment");
 const Parser = require("rss-parser");
 let parser = new Parser();
 
-const DATE_RFC822_ZEROED = "ddd, DD MMM YYYY HH:mm:ss +0000"
-const current_time = moment().format(DATE_RFC822_ZEROED);
-const current_time_unix = moment(current_time).format("X");
+// const DATE_RFC822_ZEROED = "ddd, DD MMM YYYY HH:mm:ss ZZ"
+// const current_time = moment().format(DATE_RFC822_ZEROED);
+const current_time_unix = moment().format("X");
 
 parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
   .then((feed) => {
+    logger.write("\n")
+    logger.write(moment().format("ddd, DD MMM YYYY HH:mm:ss ZZ"));
+    logger.write("\n")
 
     feed.items.forEach((item, i) => {
 
@@ -37,32 +46,29 @@ parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
         message.concat(` ${item.link}`)
       };
 
-      console.log(message);
+      logger.write(difference_in_minutes.toString());
+      logger.write("\n")
 
       if(difference_in_minutes < 11){
+      // EMAIL...
+        let HelperOptions = {
+          from: 'DSCA sales <dsca.arms.sales@gmail.com>',
+          to: config.recipient,
+          subject: `ARMS SALE: ${item.title}`,
+          html: `${item.content} \n\n ${item.link}`
+        };
 
-        // TWITTER...
-        client.post('statuses/update', {status: message},  function(error, tweet, response) {
-          if(error) throw error;
-
-          // EMAIL...
-            let HelperOptions = {
-              from: 'DSCA sales <dsca.arms.sales@gmail.com>',
-              to: config.recipient,
-              subject: `ARMS SALE: ${item.title}`,
-              html: `${item.content} \n\n ${item.link}`
-            };
-
-            transporter.sendMail(HelperOptions, (error, info) => {
-              if(error){
-                console.log(error);
-              } else {
-                console.log("Email Sent.");
-              }
-            });
+        transporter.sendMail(HelperOptions, (error, info) => {
+          if(error){
+            console.log(error);
+          } else {
+            // TWITTER...
+              client.post('statuses/update', {status: message},  function(error, tweet, response) {
+                      if(error) throw error;
+              });
+          }
         });
-
-      }
+      };
     });
   })
   .catch((err) => console.log(err));
