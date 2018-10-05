@@ -20,8 +20,10 @@ parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
   .then((feed) => {
 
     runLogger.write("\n")
-      runLogger.write(moment().format("RUN: ddd, DD MMM YYYY HH:mm:ss ZZ"));
+      runLogger.write(moment(t1).format("LLLL"));
       runLogger.write("\n")
+    rssLogger.write(moment(t1).format("LLLL"));
+      rssLogger.write("\n")
 
     feed.items.forEach((item, i) => {
 
