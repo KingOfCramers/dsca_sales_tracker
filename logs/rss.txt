@@ -1,0 +1,100 @@
+Canada – King Air 350ER ISR Aircraft (Manned Airborne, Intelligence, Surveillance and Reconnaissance (MAISR) Platform)Canada – King Air 350ER ISR Aircraft (Manned Airborne, Intelligence, Surveillance and Reconnaissance (MAISR) Platform)Canada – King Air 350ER ISR Aircraft (Manned Airborne, Intelligence, Surveillance and Reconnaissance (MAISR) Platform)1679.65Iraq – Armed Bell 407GX Helicopters3089.3166666666666Bahrain – M31 Guided Multiple Launch Rocket System (GMLRS) Unitary and Army Tactical Mission System (ATACMS) T2K Unitary Missile10208.883333333333Taipei Economic and Cultural Representative Office in the United States (TECRO) – Foreign Military Sales Order (FMSO) II Case15818.95United Kingdom – Phalanx Baseline 2 Radar Upgrade Kits21883.75United Kingdom – SEAL Delivery Vehicle (SDV) MK 11 Shallow Water Combat Submersibles (SWCS)23288.8Egypt – 120MM Tank Rounds25872.016666666666Korea – P-8A Aircraft and Associated Support31763.85Korea – Patriot Advanced Capability-3 (PAC-3) Missile Segment Enhancement (MSE) Missiles31765.85Japan – E-2D Advanced Hawkeye Airborne Early Warning and Control Aircraft36284.666666666664The Netherlands – Patriot Recapitalization (RECAP)43327.63333333333Mexico – Evolved Seasparrow Missiles83377.1Latvia – UH-60M Black Hawk Helicopters91009.85Kuwait – Munitions91978.43333333333The Netherlands – MK 54 Lightweight Torpedoes94954.65Denmark – SM-2 Block IIIA Standard Missiles94954.7Bahrain – Improved Target Acquisition System (ITAS) Launchers95431.11666666667Kuwait – Munitions95431.18333333333Bahrain – Follow-On Technical Support (FOTS) for the Royal Bahrain Navy Ship SABHA (FFG-90)102183.36666666667Denmark – AIM-120 C-7 Advanced Medium Range Air-to-Air Missile (AMRAAM)125254.43333333333United Kingdom – AIM-120D Advanced Medium Range Air-to-Air Missile (AMRAAM)125255.08333333333Australia – AEGIS Combat System Equipment for Australia Surface Combatants145346.91666666666Spain – AEGIS Combat System145347.73333333334India – Support for Direct Commercial Sale of AH-64E Apache Helicopters165747.33333333334Bahrain – Munitions201936.26666666666Canada – King Air 350ER ISR Aircraft (Manned Airborne, Intelligence, Surveillance and Reconnaissance (MAISR) Platform)1680.1
+Iraq – Armed Bell 407GX Helicopters3089.766666666667
+Bahrain – M31 Guided Multiple Launch Rocket System (GMLRS) Unitary and Army Tactical Mission System (ATACMS) T2K Unitary Missile10209.333333333334
+Taipei Economic and Cultural Representative Office in the United States (TECRO) – Foreign Military Sales Order (FMSO) II Case15819.4
+United Kingdom – Phalanx Baseline 2 Radar Upgrade Kits21884.2
+United Kingdom – SEAL Delivery Vehicle (SDV) MK 11 Shallow Water Combat Submersibles (SWCS)23289.25
+Egypt – 120MM Tank Rounds25872.466666666667
+Korea – P-8A Aircraft and Associated Support31764.3
+Korea – Patriot Advanced Capability-3 (PAC-3) Missile Segment Enhancement (MSE) Missiles31766.3
+Japan – E-2D Advanced Hawkeye Airborne Early Warning and Control Aircraft36285.11666666667
+The Netherlands – Patriot Recapitalization (RECAP)43328.083333333336
+Mexico – Evolved Seasparrow Missiles83377.55
+Latvia – UH-60M Black Hawk Helicopters91010.3
+Kuwait – Munitions91978.88333333333
+The Netherlands – MK 54 Lightweight Torpedoes94955.1
+Denmark – SM-2 Block IIIA Standard Missiles94955.15
+Bahrain – Improved Target Acquisition System (ITAS) Launchers95431.56666666667
+Kuwait – Munitions95431.63333333333
+Bahrain – Follow-On Technical Support (FOTS) for the Royal Bahrain Navy Ship SABHA (FFG-90)102183.81666666667
+Denmark – AIM-120 C-7 Advanced Medium Range Air-to-Air Missile (AMRAAM)125254.88333333333
+United Kingdom – AIM-120D Advanced Medium Range Air-to-Air Missile (AMRAAM)125255.53333333334
+Australia – AEGIS Combat System Equipment for Australia Surface Combatants145347.36666666667
+Spain – AEGIS Combat System145348.18333333332
+India – Support for Direct Commercial Sale of AH-64E Apache Helicopters165747.78333333333
+Bahrain – Munitions201936.71666666667
+Canada – King Air 350ER ISR Aircraft (Manned Airborne, Intelligence, Surveillance and Reconnaissance (MAISR) Platform) 1680.4333333333334
+Iraq – Armed Bell 407GX Helicopters 3090.1
+Bahrain – M31 Guided Multiple Launch Rocket System (GMLRS) Unitary and Army Tactical Mission System (ATACMS) T2K Unitary Missile 10209.666666666666
+Taipei Economic and Cultural Representative Office in the United States (TECRO) – Foreign Military Sales Order (FMSO) II Case 15819.733333333334
+United Kingdom – Phalanx Baseline 2 Radar Upgrade Kits 21884.533333333333
+United Kingdom – SEAL Delivery Vehicle (SDV) MK 11 Shallow Water Combat Submersibles (SWCS) 23289.583333333332
+Egypt – 120MM Tank Rounds 25872.8
+Korea – P-8A Aircraft and Associated Support 31764.633333333335
+Korea – Patriot Advanced Capability-3 (PAC-3) Missile Segment Enhancement (MSE) Missiles 31766.633333333335
+Japan – E-2D Advanced Hawkeye Airborne Early Warning and Control Aircraft 36285.45
+The Netherlands – Patriot Recapitalization (RECAP) 43328.416666666664
+Mexico – Evolved Seasparrow Missiles 83377.88333333333
+Latvia – UH-60M Black Hawk Helicopters 91010.63333333333
+Kuwait – Munitions 91979.21666666666
+The Netherlands – MK 54 Lightweight Torpedoes 94955.43333333333
+Denmark – SM-2 Block IIIA Standard Missiles 94955.48333333334
+Bahrain – Improved Target Acquisition System (ITAS) Launchers 95431.9
+Kuwait – Munitions 95431.96666666666
+Bahrain – Follow-On Technical Support (FOTS) for the Royal Bahrain Navy Ship SABHA (FFG-90) 102184.15
+Denmark – AIM-120 C-7 Advanced Medium Range Air-to-Air Missile (AMRAAM) 125255.21666666666
+United Kingdom – AIM-120D Advanced Medium Range Air-to-Air Missile (AMRAAM) 125255.86666666667
+Australia – AEGIS Combat System Equipment for Australia Surface Combatants 145347.7
+Spain – AEGIS Combat System 145348.51666666666
+India – Support for Direct Commercial Sale of AH-64E Apache Helicopters 165748.11666666667
+Bahrain – Munitions 201937.05
+0 : 1681.2
+1 : 3090.866666666667
+2 : 10210.433333333332
+3 : 15820.5
+4 : 21885.3
+5 : 23290.35
+6 : 25873.566666666666
+7 : 31765.4
+8 : 31767.4
+9 : 36286.21666666667
+10 : 43329.183333333334
+11 : 83378.65
+12 : 91011.4
+13 : 91979.98333333334
+14 : 94956.2
+15 : 94956.25
+16 : 95432.66666666667
+17 : 95432.73333333334
+18 : 102184.91666666667
+19 : 125255.98333333334
+20 : 125256.63333333333
+21 : 145348.46666666667
+22 : 145349.28333333333
+23 : 165748.88333333333
+24 : 201937.81666666668
+0 : 1681.3333333333333
+1 : 3091
+2 : 10210.566666666668
+3 : 15820.633333333333
+4 : 21885.433333333334
+5 : 23290.483333333334
+6 : 25873.7
+7 : 31765.533333333333
+8 : 31767.533333333333
+9 : 36286.35
+10 : 43329.316666666666
+11 : 83378.78333333334
+12 : 91011.53333333334
+13 : 91980.11666666667
+14 : 94956.33333333333
+15 : 94956.38333333333
+16 : 95432.8
+17 : 95432.86666666667
+18 : 102185.05
+19 : 125256.11666666667
+20 : 125256.76666666666
+21 : 145348.6
+22 : 145349.41666666666
+23 : 165749.01666666666
+24 : 201937.95

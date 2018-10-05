@@ -1,8 +1,5 @@
 // Logging
-const fs = require("fs");
-var logger = fs.createWriteStream('log.txt', {
-  flags: 'a'
-});
+const { runLogger, rssLogger, t1 } = require("./logger");
 
 // Mailer
 const { transporter } = require("./mailer");
@@ -16,16 +13,15 @@ const moment = require("moment");
 // For parsing Rss feed
 const Parser = require("rss-parser");
 let parser = new Parser();
-
-// const DATE_RFC822_ZEROED = "ddd, DD MMM YYYY HH:mm:ss ZZ"
-// const current_time = moment().format(DATE_RFC822_ZEROED);
 const current_time_unix = moment().format("X");
+
 
 parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
   .then((feed) => {
-    logger.write("\n")
-    logger.write(moment().format("ddd, DD MMM YYYY HH:mm:ss ZZ"));
-    logger.write("\n")
+
+    runLogger.write("\n")
+      runLogger.write(moment().format("RUN: ddd, DD MMM YYYY HH:mm:ss ZZ"));
+      runLogger.write("\n")
 
     feed.items.forEach((item, i) => {
 
@@ -33,6 +29,7 @@ parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
       const item_time_unix = moment(item.pubDate).format("X");
       const difference_unix = parseInt(current_time_unix) - parseInt(item_time_unix);
       const difference_in_minutes = difference_unix/60;
+        rssLogger.write(`${i} : `); rssLogger.write(difference_in_minutes.toString()); rssLogger.write("\n");
 
       // Content parsing...
       const cost = item.contentSnippet.slice(item.contentSnippet.match(/estimated cost of/).index + 18, item.contentSnippet.match(/illion/).index + 6);
@@ -40,17 +37,20 @@ parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
       const goods = item.title.slice(item.title.match(/–/).index + 2, item.title.length);
       var message = `NEW: #DSCA notifies Congress of possible ${cost} military sale to ${recipient}, of ${goods}`;
 
+      // Twitter formatting...
       if (message.length > 257) {
         message = `NEW: #DSCA notifies Congress of possible ${cost} military sale to ${recipient} ${item.link}`
-      } else {
+        } else {
         message.concat(` ${item.link}`)
       };
 
-      logger.write(difference_in_minutes.toString());
-      logger.write("\n")
-
+      // Time checking...
       if(difference_in_minutes < 11){
-      // EMAIL...
+
+        runLogger.write(`UPDATE FROM ${difference_in_minutes} minutes ago ---- ${message}`);
+        runLogger.write("\n");
+
+        // EMAIL...
         let HelperOptions = {
           from: 'DSCA sales <dsca.arms.sales@gmail.com>',
           to: config.recipient,
@@ -68,7 +68,11 @@ parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
               });
           }
         });
-      };
+      }
     });
+
+    const t2 = Date.now();
+    runLogger.write("Script took " + (t2 - t1) + " milliseconds.");
+
   })
   .catch((err) => console.log(err));
