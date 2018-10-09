@@ -66,9 +66,9 @@ parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
             console.log(error);
           } else {
             // TWITTER...
-              client.post('statuses/update', {status: message},  function(error, tweet, response) {
+            /*  client.post('statuses/update', {status: message},  function(error, tweet, response) {
                       if(error) throw error;
-              });
+              }); */
           }
         });
       }

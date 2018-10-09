@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.18.0",
     "moment": "^2.22.2",
     "nodemailer": "^4.6.8",
     "rss-parser": "^3.4.3",
