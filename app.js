@@ -31,7 +31,8 @@ parser.parseURL("http://www.dsca.mil/major-arms-sales/feed")
       const item_time_unix = moment(item.pubDate).format("X");
       const difference_unix = parseInt(current_time_unix) - parseInt(item_time_unix);
       const difference_in_minutes = difference_unix/60;
-        rssLogger.write(`${i} : `); rssLogger.write(difference_in_minutes.toString()); rssLogger.write("\n");
+
+      rssLogger.write(`${i} : `); rssLogger.write(difference_in_minutes.toString()); rssLogger.write("\n");
 
       // Content parsing...
       const cost = item.contentSnippet.slice(item.contentSnippet.match(/estimated cost of/).index + 18, item.contentSnippet.match(/illion/).index + 6);
